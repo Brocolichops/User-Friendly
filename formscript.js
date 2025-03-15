@@ -1,5 +1,6 @@
 const submitQuery = document.querySelector("button");
 const passwordInput = document.getElementById("password")
+const topLeft = document.getElementById("top-left")
 
 const generateRandom = () => {
     const randomNum = Math.floor(Math.random() * 90);
@@ -15,6 +16,8 @@ submitQuery.addEventListener("mouseover", () => {
         submitQuery.style.width = 10 + "%";
         submitQuery.style.top = generateRandom();
         submitQuery.style.left = generateRandom();
+    }else {
+        topLeft.innerText = "Top-Left"
     }
 });
 

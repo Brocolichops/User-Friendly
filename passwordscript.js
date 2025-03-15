@@ -14,7 +14,8 @@ const checkPass = () => {
     console.log(userInputValue);
 
     if (userInputValue == "password123"){
-        outputSpan.innerText = "CONGRATULATIONS!";
+        outputSpan.innerText = "THIS IS THE STRONGEST PASSWORD😉";
+        
     }else if (regex.test(userInputValue)){
         outputSpan.innerText = "PASSWORD MUST CONTAIN SPECIAL CHARACTERS!"
     }else {

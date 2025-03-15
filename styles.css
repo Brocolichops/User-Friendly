@@ -10,6 +10,14 @@ body {
     padding: 0;
 }
 
+.password {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-size: 2vw;
+    color: #ff000055;
+}
+
 #half {
     position: absolute;
     height: 90vh;
