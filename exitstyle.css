@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #0b0b0b;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 4vw; 
+}
+
+h4{
+    font-size: 2vw;
+}
+
+#game-btn {
+    background: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 3vw;
+    position: absolute;
+    top: 90%;
+}
+
+#exit {
+    opacity: 0.05;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

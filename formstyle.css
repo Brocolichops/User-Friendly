@@ -1,0 +1,94 @@
+/* General reset and styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0b0b0b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 14px;
+    color: #555;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="radio"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+input[type="radio"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+.gender {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+#submit,
+input[type="reset"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 48%;
+}
+
+#submit:hover,
+input[type="reset"]:hover {
+    background-color: #0056b3;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+#submit:focus,
+input[type="reset"]:focus {
+    outline: none;
+}
+
+#submit {
+    position: absolute;
+    width: 14%;
+    bottom: 7.2%;
+    left: 50%;
+}

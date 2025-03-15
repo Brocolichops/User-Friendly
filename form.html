@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="formstyle.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Information Form</title>
+</head>
+<body>
+    <div class="form-container">
+        <form>
+            <h1>Personal Information</h1>
+            <label for="username">Enter Username</label>
+            <input type="text" name="username" id="username">
+            
+            <label for="firstname">Enter your First Name</label>
+            <input type="text" name="firstname" id="firstname">
+            
+            <label for="lastname">Enter your Last Name</label>
+            <input type="text" name="lastname" id="lastname">
+            
+            <label for="email">Enter Email Address</label>
+            <input type="email" name="email" id="email">
+            
+            <label>Enter your Gender</label>
+            <div class="gender">
+                <label><input type="radio" name="Gender" value="Male"> Male</label>
+                <label><input type="radio" name="Gender" value="Female"> Female</label>
+            </div>
+            
+            <label for="number">Enter your Password</label>
+            <input type="text" name="number" maxlength="11" id='password'>
+            
+            <div class="form-actions">
+                <input type="reset" value="Reset">
+            </div>
+        </form>
+        <button id='submit' class='submit-btn'>Submit</button>
+    </div>
+
+    <script src="formscript.js"></script>
+</body>
+</html>
